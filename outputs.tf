@@ -1,5 +1,5 @@
 output "vpc-id" {
-  value = "aws_vpc.vpc-cnbd.id"
+  value = "aws_vpc.vpc.id"
 }
 output "subnets-app-ids" {
   value = "aws_subnet.private-app-subnets.*.id"
